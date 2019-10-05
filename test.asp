@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-<%
-response.write("test")
-%>
-</body>
-</html>
+<HTML>
+<HEAD>
+<TITLE>ASP Test Page</TITLE>
+</HEAD>
+
+<BODY>
+Today's date and time is <%=Now()%>.
+</BODY>
+</HTML>
